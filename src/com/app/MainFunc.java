@@ -21,7 +21,7 @@ public class MainFunc {
         String fileName = path_url + "/StockID_AnnouncementID";
 
         //i: the page of HTTP request where the spider begins from
-        for (i = 3600; i < 80000; i++) {
+        for (i = 0; i < 80000; i++) {
             System.out.println("Start analyzing page " + i);
             GetInfoID client = new GetInfoID();
             String url = "http://quotes.money.163.com/hs/marketdata/service/gsgg.php?host=/hs/marketdata/service/gsgg.php&page=" + String.valueOf(i) + "&query=leixing:00;start:all;end:all&fields=RN,SYMBOL,SNAME,PUBLISHDATE,ANNOUNMT2,ANNOUNMT1&sort=PUBLISHDATE&order=desc&count=25&type=query&initData=[object%20Object]&callback=callback_1604891936&req=2226";
