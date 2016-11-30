@@ -1,0 +1,10 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="163_Spider:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/163_Spider_jar</output-path>
+    <root id="archive" name="163_Spider.jar">
+      <element id="module-output" name="163_Spider" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/lib/json.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/lib/htmlparser.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>
